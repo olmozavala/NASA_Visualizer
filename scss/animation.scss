@@ -1,0 +1,40 @@
+/* 
+    Created on : Apr 16, 2014, 8:52:21 PM
+    Author     : olmozavala
+*/
+
+@import "compass/css3";
+@import "base";
+
+#loading{
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	left: 48%;
+	top: 40%;
+	display: none;
+	z-index: 1000;
+}
+
+/* line 55, ../scss/main.scss */
+#animationCanvas {
+  display: none;
+}
+
+/* line 59, ../scss/main.scss */
+#animControls {
+  /*top: 100px;*/
+  /*left: 40%;*/
+  /*width: 19em;*/
+  /*padding: 0px 20px;*/
+  /*position: absolute;*/
+  display: none;
+  background-color: white;
+  @include opacity(.7);
+  @include border-radius();
+  z-index: 1000;
+}
+
+#stopAnimation{
+	display:none;
+}

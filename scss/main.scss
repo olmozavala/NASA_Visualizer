@@ -1,0 +1,63 @@
+@import "compass/css3";
+@import "base";
+
+#mainMap{
+	padding-bottom: 1%;
+	/*padding-top: 2%;*/
+}
+
+.mainContainer{
+	width: 100%;
+}
+
+.mainTitle{
+	width: 100%;
+	text-align: center;
+}
+
+.control-title{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.btn-default,p{
+	margin-top: 1em;
+}
+
+h2 h3{
+	text-align: center;
+}
+
+#baseLayers{
+	width: 385px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+#products_group{
+}
+
+#selectedYear{
+	width: 6em;
+}
+
+#from, #to, #datepicker{
+	width: 8em;
+}
+
+.dropdown-backdrop {
+  position: static;
+}
+
+#currentDate{
+	width:100px;
+	background-color: white;
+	@include border-radius(3px);
+	padding: 7px;
+	font-size: 15px;
+	position: relative;
+	left:200px;
+}
